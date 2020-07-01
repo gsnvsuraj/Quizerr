@@ -9,6 +9,7 @@ class Menu extends Component {
                 {name: "Naruto", value: "naruto"},
                 {name: "Attack on Titan", value: "aot"},
                 {name: "My Hero Academia", value: "mha"},
+                {name: "Death Note", value: "dtn"},
                 {name: "Parasyte The Maxim", value: "ptm"}
             ]
         }

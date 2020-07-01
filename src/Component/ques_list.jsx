@@ -565,6 +565,159 @@ const ptm = [
     }
 ];
 
+const dtn = [
+    {question:"Who was working with the name KIRA?",
+    options:["Light Yagami","Misa Amane","Lawliet","Ryuk"],
+    answer:"Light Yagami",
+    id:821
+    },
+    {question:"Who was Light Yagami's first shinigami?",
+    options:["Rem","Sidoh","Gelus","Ryuk"],
+    answer:"Ryuk",
+    id:822
+    },
+    {question:"What is Ryuk's favourite food?",
+    options:["Banana","Cheese","Red Apples","Burger"],
+    answer:"Red Apples",
+    id:823
+    },
+    {question:"What did Light hide in a potato chip packet when L put surveillance cameras in his room?",
+    options:["A watch","A miniature LCD TV","A knife","A phone"],
+    answer:"A miniature LCD TV",
+    id:824
+    },
+    {question:"What is L's real name?",
+    options:["Ryuzaki","Hideki Ryuga","Eraldo Coil","Lawliet"],
+    answer:"Lawliet",
+    id:825
+    },
+    {question:" What color shirt did L wear?",
+    options:["White","Blue","Black","Grey"],
+    answer:"White",
+    id:826
+    },
+    {question:"When making a deal for shinigami eyes, what must a human give up?",
+    options:["7 Red apples","Their soul","Half of their life span","Their eyes"],
+    answer:"Half of their life span",
+    id:827
+    },
+    {question:"Who killed L?",
+    options:["Ryuk ","Rem","Matsuda","Light"],
+    answer:"Rem",
+    id:828
+    },
+    {question:"What is the name of the second Kira?",
+    options:["Misa Amane","Light Yagami","Hideki Ryuga"," Raye Penber"],
+    answer:"Misa Amane",
+    id:829
+    },
+    {question:" What is the name of the shinigami who dropped their Death Note?",
+    options:["Rem","Ryuk","Gelus","Sidoh"],
+    answer:"Ryuk",
+    id:830
+    },
+    {question:" Why does Misa worship Kira?",
+    options:["Because he killed the robber who killed her parents","Because he killed her stepmother and stepsisters","Because she thinks he's hot","Because she had a childhood crush on him and loves him"],
+    answer:"Because he killed the robber who killed her parents",
+    id:851
+    },
+    {question:"What is a Shinigami?",
+    options:["An other worldely monster","A God of Death","An alien","A soul in pain"],
+    answer:"A God of Death",
+    id:852
+    },
+    {question:"What is needed to add someone to th death note?",
+    options:["Their name and photo id","Their first, middle and last name","Their name and face","Their name"],
+    answer:"Their name and face",
+    id:853
+    },
+    {question:"Unless specified, how does someone die with their name in death note?",
+    options:["From a heart attack","In an accident","They disappear","A knife stab"],
+    answer:"From a heart attack",
+    id:854
+    },
+    {question:"How does Light find the death note?",
+    options:["Found buried in ground","Bought it from ancient store","Saw it fall from sky in school","His parents gave him"],
+    answer:"Saw it fall from sky in school",
+    id:855
+    },
+    {question:"What is the name of Light's little sister?",
+    options:["Sayo","Saya","Sara","Sayu"],
+    answer:"Sayu",
+    id:856
+    },
+    {question:"Who are the successors of L?",
+    options:["Mello and Near","Misa and Near","Mello and Night","Mikame and Nate"],
+    answer:"Mello and Near",
+    id:857
+    },
+    {question:"Which is not a characteristic of L?",
+    options:["Crounch rather than stand","Holding things with fingers and thumb","Eating sweets and chocolate","Socializing with everyone"],
+    answer:"Socializing with everyone",
+    id:858
+    },
+    {question:"What is Misa Amane's profession?",
+    options:["Writer","Singer","Teacher","Model"],
+    answer:"Model",
+    id:859
+    },
+    {question:"Whose death note does Misa receive?",
+    options:["Rem","Gelus","Ryuk","Sidoh"],
+    answer:"Gelus",
+    id:860
+    },
+    {question:"What is special about Shinigami's eye?",
+    options:["They can see name of a person","They can see lifespan of a person","They can see name and lifespan of a person","They can see name and age of a person"],
+    answer:"They can see name and lifespan of a person",
+    id:881
+    },
+    {question:"How does Light Yagami die?",
+    options:["Misa writes his name in death note","By the knife stabs","Due to the gunshots by police","Ryuk writes his name in death note"],
+    answer:"Ryuk writes his name in death note",
+    id:882
+    },
+    {question:"Who is the third Kira?",
+    options:["Misa Amane","Kyosuke Higuchi","Teru Mikami","Kiyomi Takada"],
+    answer:"Kyosuke Higuchi",
+    id:883
+    },
+    {question:"Where does final confrontation take place?",
+    options:["Yellow Box Warehouse","Yotsuba Warehouse","SPK factory","Black Box Warehouse"],
+    answer:"Yellow Box Warehouse",
+    id:884
+    },
+    {question:"How does Higuchi die?",
+    options:["By suicide","By accident","By heart attack","By gunfire"],
+    answer:"By heart attack",
+    id:885
+    },
+    {question:"How many members of the task force are there after L dies?",
+    options:["Five","Seven","Four","Six"],
+    answer:"Six",
+    id:886
+    },
+    {question:"What does L usually eat?",
+    options:["Sweets","Pizza","Red Apples","Chips"],
+    answer:"Sweets",
+    id:887
+    },
+    {question:"Where does L,M and N come from?",
+    options:["Watari's House","White House","Wammy's House","Spk's House"],
+    answer:"Wammy's House",
+    id:888
+    },
+    {question:"What sport did L and Light play against each other?",
+    options:["Soccer","Tennis","Baseball","Chess"],
+    answer:"Tennis",
+    id:889
+    },
+    {question:" Where did Misa Amane first find Light?",
+    options:["Yokohama","Kyoto","Kobe","Aoyama"],
+    answer:"Aoyama",
+    id:890
+    }
+];
+
 
 function shuffleArray(array) {
     let i = array.length - 1;
@@ -613,6 +766,14 @@ export function getQuestions(topics, noQues) {
 
         for(i=0; i<noQues; i++)
             questions.push(mha[ind[i]]);
+    }
+
+    else if (topics === "dtn") {
+        const len = dtn.length;
+        const ind = random(noQues, len);
+
+        for(i=0; i<noQues; i++)
+            questions.push(dtn[ind[i]]);
     }
 
     else if (topics === "ptm") {
