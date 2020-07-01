@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Quizerr/static/css/main.0c9cb85b.chunk.css",
-    "main.js": "/Quizerr/static/js/main.d82c6871.chunk.js",
-    "main.js.map": "/Quizerr/static/js/main.d82c6871.chunk.js.map",
+    "main.js": "/Quizerr/static/js/main.928da83d.chunk.js",
+    "main.js.map": "/Quizerr/static/js/main.928da83d.chunk.js.map",
     "runtime-main.js": "/Quizerr/static/js/runtime-main.cef48596.js",
     "runtime-main.js.map": "/Quizerr/static/js/runtime-main.cef48596.js.map",
     "static/js/2.2def195c.chunk.js": "/Quizerr/static/js/2.2def195c.chunk.js",
     "static/js/2.2def195c.chunk.js.map": "/Quizerr/static/js/2.2def195c.chunk.js.map",
     "index.html": "/Quizerr/index.html",
-    "precache-manifest.c578de4e66f2ade92cc18f7427942367.js": "/Quizerr/precache-manifest.c578de4e66f2ade92cc18f7427942367.js",
+    "precache-manifest.e078061fd3c15adb0f15b0d755ff1725.js": "/Quizerr/precache-manifest.e078061fd3c15adb0f15b0d755ff1725.js",
     "service-worker.js": "/Quizerr/service-worker.js",
     "static/css/main.0c9cb85b.chunk.css.map": "/Quizerr/static/css/main.0c9cb85b.chunk.css.map",
     "static/js/2.2def195c.chunk.js.LICENSE.txt": "/Quizerr/static/js/2.2def195c.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.cef48596.js",
     "static/js/2.2def195c.chunk.js",
     "static/css/main.0c9cb85b.chunk.css",
-    "static/js/main.d82c6871.chunk.js"
+    "static/js/main.928da83d.chunk.js"
   ]
 }
