@@ -6,9 +6,7 @@ import Scorecard from './scorecard';
 
 class Main extends Component {
     constructor(props) {
-        super(props);
-        console.log("Main constructor running");
-    
+        super(props);    
 
         this.state = { 
             questions:[],

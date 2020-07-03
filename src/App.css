@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
   font-family: Georgia;
 }
 
@@ -25,8 +24,8 @@
   opacity: 1;
 }
 
-.quizHead{
-  display: inline;
+.App-body {
+  text-align: center;
 }
 
 .darkMode {
@@ -35,9 +34,15 @@
   opacity: 0.87;
 }
 
+.quizHead{
+  margin:0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
 .toggle {
-  display: inline;
-  margin-left: 70%;
+  cursor: pointer;
 }
 
 button {
