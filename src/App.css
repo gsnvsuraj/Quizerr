@@ -34,15 +34,16 @@
   opacity: 0.87;
 }
 
+.darkImg {
+  float: right;
+  margin: 10px 20px 5px 0px;
+  cursor: pointer;
+}
+
 .quizHead{
   margin:0px;
   font-size: 20px;
   font-weight: bold;
-}
-
-
-.toggle {
-  cursor: pointer;
 }
 
 button {
