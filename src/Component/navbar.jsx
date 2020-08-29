@@ -7,7 +7,7 @@ class Navbar extends Component {
             <nav className="navbar navbar-inverse">
                 <div className="container-fluid">
                 <div className="navbar-header">
-                    <h1 className="quizHead navbar-brand">ANIME OUIZERR</h1>
+                    <h1 className="quizHead navbar-brand">ANIME QUIZERR</h1>
                 </div>
                 <ul className="nav navbar-nav navbar-right">
                     <li></li>
