@@ -1,7 +1,7 @@
 # Quizerr
 
 Quizerr is a quiz app built using React JS.<br>
-The website is live, [Click Here](https://gsnvsuraj.ga/Quizerr/) to view.<br><br>
+The website is live, [Click Here](https://gsnvsuraj.github.io/Quizerr/) to view.<br><br>
 
 ## Available Scripts
 
